@@ -1,6 +1,8 @@
+#ye to manually decrypt the file
+
 from cryptography.fernet import Fernet
 
-key = b'xNblDyLbMcwzpoLAndmSKeOPFduG4RPQEy4uCabSbxA=' 
+key = b''  #manually put the encryption key )
 
 cipher = Fernet(key)
 
